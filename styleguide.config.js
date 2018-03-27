@@ -1,4 +1,4 @@
 module.exports = {
-  title: 'React Style Guide Example',
+  title: 'React d3 mini controls',
   components: 'src/**/[A-Z]*.js',
 };

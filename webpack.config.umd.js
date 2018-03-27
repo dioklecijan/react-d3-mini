@@ -4,13 +4,13 @@ const webpack = require('webpack');
 module.exports = {
   devtool: 'source-map',
   entry: {
-    'react-d3-rating': './src/index.js',
+    'react-d3-mini': './src/index.js',
   },
   output: {
     path: path.join(__dirname, 'dist/umd'),
     filename: '[name].js',
     libraryTarget: 'umd',
-    library: 'ReactD3Rating',
+    library: 'ReactD3Mini',
   },
   externals: {
     react: 'React',

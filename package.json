@@ -1,8 +1,8 @@
 {
   "name": "react-d3-mini",
   "version": "1.0.0",
-  "description": "Rating control",
-  "repository": "git+https://github.com/dioklecijan/react-d3-rating.git",
+  "description": "react d3 mini controls",
+  "repository": "git+https://github.com/dioklecijan/react-d3-mini.git",
   "author": "Mario Gudelj",
   "license": "MIT",
   "main": "lib/index.js",
@@ -39,10 +39,12 @@
     "reactjs",
     "react-component",
     "d3",
-    "rating"
+    "rating",
+    "controls",
+    "ui"
   ],
   "bugs": {
-    "url": "https://github.com/dioklecijan/react-d3-rating/issues"
+    "url": "https://github.com/dioklecijan/react-d3-mini/issues"
   },
   "jest": {
     "transform": {
