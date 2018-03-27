@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/mariogudelj/.nvm/versions/node/v9.1.0/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js run check
+  /Users/mariogudelj/.nvm/versions/node/v9.1.0/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js run publish-docs
 
 PATH: 
   /Users/mariogudelj/.nvm/versions/node/v9.1.0/bin:/usr/local/opt/openssl/bin:/Library/Developer/CommandLineTools/usr/include/c++/v1:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/openssl/bin:/Library/Developer/CommandLineTools/usr/include/c++/v1:/Users/mariogudelj/.fzf/bin:/usr/local/bin
@@ -17,8 +17,8 @@ npm manifest:
   {
     "name": "react-d3-mini",
     "version": "1.0.0",
-    "description": "Rating control",
-    "repository": "git+https://github.com/dioklecijan/react-d3-rating.git",
+    "description": "react d3 mini controls",
+    "repository": "git+https://github.com/dioklecijan/react-d3-mini.git",
     "author": "Mario Gudelj",
     "license": "MIT",
     "main": "lib/index.js",
@@ -55,10 +55,12 @@ npm manifest:
       "reactjs",
       "react-component",
       "d3",
-      "rating"
+      "rating",
+      "controls",
+      "ui"
     ],
     "bugs": {
-      "url": "https://github.com/dioklecijan/react-d3-rating/issues"
+      "url": "https://github.com/dioklecijan/react-d3-mini/issues"
     },
     "jest": {
       "transform": {
@@ -8513,7 +8515,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c yarn prettier && yarn lint && yarn flow
+  Arguments: -c npm run styleguide-build && npm run gh-pages
   Directory: /Users/mariogudelj/projects/react-d3-rating
   Output:
   
