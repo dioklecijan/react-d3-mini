@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/findup/test/fixture/.*
+
+[untyped]
+.*/node_modules/babel-plugin-transform-react-remove-prop-types/.*
+
+
+[include]
+
+[libs]
+
+[options]
+munge_underscores=true
